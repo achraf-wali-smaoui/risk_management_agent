@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+*.env
+secrets.*
+credentials.*
+config.local.*
+
+# Data
+data/raw/*
+!data/raw/.gitkeep
+*.csv
+*.parquet
+*.feather
+*.h5
+
+# Outputs / logs
+outputs/*
+!outputs/.gitkeep
+logs/*
+!logs/.gitkeep
+wandb/
+runs/
+results/
+cache/
+.cache/
+
+# Models / checkpoints
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.zip
+checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
